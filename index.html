@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <title>Feedback Practicer</title>
+</head>
+  <body>
+    <div class="container">
+      <h3 class="center">Practice Giving Feedback</h3>
+      <form>
+        <div class="input-field ">
+        <input id="name" type="text"  class="validate" />
+          <label for="name">Who do you want to give feedback to?</label>
+        </div>
+        <div class="input-field">
+        <label for="thingThatYouDo">What is that person doing that you like to bring attention to?</label>
+        <input type="text" id="thingThatYouDo" />
+    </div>
+        <div class="input-field">
+        <label for="thingThatHappens">What is happening when they do that thing?</label>
+        <input type="text" id="thingThatHappens">
+        </div>
+        <div class="input-field">
+        <label for="thingThatYouCouldDoInstead">What would you like for them to do instead?</label>
+        <input type="text" id="thingThatYouCouldDoInstead">
+          </div>
+        <button type="submit" class="btn" id="giveFeedback">Give Feedback</button>
+      </form>
+      <p class="center">Based on a talk on Pair Programming by May Cheung of Flatiron School <a href="https://www.manager-tools.com/2005/07/giving-effective-feedback">And This Podcast</a> </p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
