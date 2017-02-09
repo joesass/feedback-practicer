@@ -8,8 +8,6 @@ function giveFeedback(name, thingThatYouDo, thingThatHappens, thingThatYouCouldD
 
 var $button = document.getElementById('giveFeedback')
 
-console.log($button)
-
 document.getElementById('giveFeedback').addEventListener('click', function(e){
   e.preventDefault()
   var name = document.getElementById('name').value
